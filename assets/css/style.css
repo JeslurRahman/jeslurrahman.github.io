@@ -475,7 +475,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
@@ -508,6 +508,32 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #0563bb;
+}
+
+.skills .container .box {
+  display: none;
+}
+
+.skills .container .box:nth-child(2) {
+  display: block;
+}
+
+#load-more {
+  margin-top: 20px;
+  display: inline-block;
+  padding: 13px 30px;
+  border: 1px solid #334;
+  border-radius: 5px;
+  color: #334;
+  font-size: 16px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#load-more:hover {
+  background-color: #0678e3;
+  border-color: #0678e3;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
