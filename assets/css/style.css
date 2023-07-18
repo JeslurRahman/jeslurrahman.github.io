@@ -286,7 +286,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.709);
+  background: rgba(255, 255, 255, 0.503);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -319,7 +319,7 @@ h6 {
 }
 
 #hero .social-links a {
-  font-size: 24px;
+  font-size: 32px;
   display: inline-block;
   color: #45505b;
   line-height: 1;
@@ -829,6 +829,36 @@ section {
 .portfolio .portfolio-wrap:hover .portfolio-info::after {
   bottom: 15px;
   right: 15px;
+}
+
+/* .portfolio .container .portfolio-container .box {
+  display: none;
+}
+
+.portfolio .container .portfolio-container .box :nth-child(1) {
+  display: block;
+} */
+
+/* .portfolio .container .portfolio-container .filter-project img {
+  height: 200px;
+} */
+
+#load-more-port {
+  margin-top: 15px;
+  display: inline-block;
+  padding: 8px 25px;
+  border: 1.5px solid #45505b;
+  border-radius: 50px;
+  color: #45505b;
+  font-size: 15px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#load-more-port:hover {
+  background-color: #0678e3;
+  border-color: #0678e3;
+  color: #fff;
 }
 
 /*--------------------------------------------------------------
