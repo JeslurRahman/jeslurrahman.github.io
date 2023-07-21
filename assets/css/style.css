@@ -861,6 +861,34 @@ section {
   color: #fff;
 }
 
+.filter-project {
+  height: 190px;
+  border: 1px solid #45505b;
+  margin-right: 100px;
+  border-radius: 10px;
+}
+
+.filter-project .project-title {
+  margin-top: 10px;
+  color: #05747b;
+}
+
+.filter-project .portfolio-info .portfolio-links .btn {
+  margin-left: 10px;
+  color: #0678e3;
+}
+
+.filter-project .portfolio-info p span {
+  font-weight: 800;
+}
+
+.filter-project .portfolio-info .portfolio-links .git-btn {
+  margin-left: 10px;
+}
+
+.filter-project .portfolio-info .portfolio-links .btn:hover {
+  color: #000000;
+}
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -869,7 +897,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-slider img {
-  width: 100%;
+  width: 80%;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
